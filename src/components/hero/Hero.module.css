@@ -1,17 +1,23 @@
+.container {
+  background-color: var(--tan);
+}
+
 .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 5rem;
 }
 
 .heading {
-      font-size: 8vw;
-      text-align: center;
+  font-size: 10rem;
+  width: 90%;
+  /* font-family: var(--thunderSemiBold), monospace; */
 }
 
-.copy {
-      text-align: center;
-      width: 70%;
+
+.sub {
+  text-transform: uppercase;
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 1.16em;
 }

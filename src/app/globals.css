@@ -3,9 +3,6 @@
   --tan: #f3f1ed;
   --white: #ffffff;
   --green: #2cdb94;
-  --inter: "Inter", sans-serif;
-  --monoBold: "ApercuMonoProBold", monospace;
-  --monoMedium: "ApercuMonoProMedium", monospace;
 }
 
 * {
@@ -14,7 +11,6 @@
   box-sizing: border-box;
   text-decoration: none;
   line-height: 120%;
-  font-family: var(--inter);
   scroll-behavior: smooth;
   scroll-margin-top: 40px;
   overscroll-behavior: none;
@@ -34,7 +30,6 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: var(--inter);
 }
 
 a {
@@ -49,7 +44,7 @@ h4,
 h5,
 h6,
 span {
-  font-family: var(--monoBold);
+  font-family: var(--thunderSemiBold);
   color: var(--black);
   hyphens: auto;
   text-transform: uppercase;
@@ -59,7 +54,7 @@ h1 {
   font-size: 6.5rem;
   line-height: 100%;
   text-transform: uppercase;
-  letter-spacing: -2px;
+  letter-spacing: 1px;
 }
 
 h2 {
@@ -101,9 +96,7 @@ textarea {
   font-size: 1.6rem;
   line-height: 150%;
   color: var(--black);
-  font-family: var(
-    --inter
-  ) !important; /* Only use !important as a last resort */
+  font-family: var(--spaceMono) !important;
 }
 
 input:focus,
@@ -112,7 +105,7 @@ textarea:focus {
 }
 
 .toastFont {
-  font-family: var(--inter);
+  font-family: var(--spaceMono);
   font-weight: 700;
 }
 
