@@ -1,4 +1,17 @@
-.copy {
-      font-family: var(--inter);
+.content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+}
 
+.heading {
+      font-size: 8vw;
+      text-align: center;
+}
+
+.copy {
+      text-align: center;
+      width: 70%;
 }
